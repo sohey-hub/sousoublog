@@ -1,14 +1,10 @@
-<div class="mx-auto" style="width: 1150px;">
-<div class="card" style="width: 70rem;">
+<div class="text-center">
+<div class="card border-white">
+  <%= image_tag(@article.image, class:"rounded mx-auto", height:"500", width:"500") %>
   <div class="card-body">
-  <%= image_tag(@article.image, class:"rounded", width:"478", height:"478") %>
-  <div class="flex">
-    <h5 class="card-title">Title：</h5>
     <h5 class="card-title"><%= @article.title %></h5>
-  </div>
-    <p class="card-text"><%= @article.text %></p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    <p class="card-text"><%= @article.text.truncate(30) %></p>
+    <p class="card-text"><small class="text-muted"><%= @article.genre.name %></small></p>
   </div>
 </div>
 </div>
