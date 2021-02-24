@@ -1,2 +1,32 @@
-<h1>Hello,world!</h1>
-<%= link_to "出品する", new_article_path %>
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Programing</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Money</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Book</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Travel</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About</a>
+  </li>
+</ul>
+
+  <div class="container">
+  <div class="row row-cols-3">
+    <% @articles.each do |article| %>
+      <div class="card-deck">
+        <div class="card mx-3 mt-3">
+          <%= link_to "#{article.title}", article_path(article.id), method: :get %>
+          <div class="card-body">
+            <p class="card-title"><%= article.text.truncate(20) %></p>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

@@ -1,3 +1,7 @@
 .navbar-brand{
   font-family: 'Courier New', Courier, monospace;
 }
+
+.flex{
+  display: flex;
+}
