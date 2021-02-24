@@ -1,8 +1,8 @@
-<ul class="nav nav-tabs justify-content-center">
+<ul class="nav nav-pills nav-fill ">
   <li class="nav-item">
     <a class="nav-link active" aria-current="page" href="#">Programing</a>
   </li>
-  <li class="nav-item">
+  <li class="nav-item ">
     <a class="nav-link" href="#">Money</a>
   </li> 
   <li class="nav-item">
@@ -27,15 +27,20 @@
   </div>
 </div>
 
+<div class="top-item">
+<div class="text-center pt-5">
+<h4>ALL blog</h4>
+</div>
+
   <div class="container">
-  <div class="row row-cols-3">
+  <div class="row row-cols-4">
     <% @articles.each do |article| %>
       <div class="card-deck">
-        <div class="card mx-3 mt-3">
-        <%= link_to image_tag(article.image, class:"card-img", width:"400", height:"400"), article_path(article.id), method: :get %>
-          <div class="card-body">
-            <p class="card-title"><%= article.text.truncate(20) %></p>
-            <p class="card-title"><%= article.title.truncate(20) %></p>
+        <div class="card border-white mx-3 mt-3">
+          <%= link_to image_tag(article.image, class:"card-img", width:"250", height:"250"), article_path(article.id), method: :get %>
+          <div class="card-img-underlay">
+            <h4 class="card-title"><%= article.title %></h4>
+            <h4 class="card-title"><%= article.text.truncate(20) %></h4>
           </div>
         </div>
       </div>

@@ -3,8 +3,15 @@
   <nav class="navbar navbar-expand-lg navbar-light .bg-primary.bg-gradient">
   <div class="container-fluid">
     <h2><%= link_to "Sousou-blog", root_path, class:"navbar-brand" %></h2>
-  </div>
-  <%= link_to "出品する", new_article_path %>
+
+   <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <div class="nav-link active">
+            <a><%= link_to "投稿", new_article_path %></a>
+            </div>
+          </li>
+          </ul>
+</div>  
 
 
 </header>
