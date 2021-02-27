@@ -5,3 +5,16 @@
 .flex{
   display: flex;
 }
+
+.card-img{
+  width: 50vw;
+  height: 25vh;
+}
+
+.container{
+  font-family: "YuGothic M";
+}
+
+.font{
+  font-family: "YuGothic M";
+}

@@ -1,4 +1,5 @@
-<ul class="nav nav-pills nav-fill ">
+<div class="font">
+<ul class="nav nav-pills nav-fill bg-black ">
   <li class="nav-item">
     <a class="nav-link active" aria-current="page" href="#">Programing</a>
   </li>
@@ -15,20 +16,19 @@
     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About</a>
   </li>
 </ul>
+</div>
 
 <div class="card bg-white text-black border-white">
   <%= image_tag "IMG_2778.jpeg", class:"bd-placeholder-img card-img-top", height:"400" %>
   <div class="card-img-overlay mt-4">
-    <div class="top-title text-white">
-      <h1>WELCOME</h1>
-      <h1>to</h1>
+    <div class="container text-white">
       <h1>Sousou-blog</h1>
     </div>
   </div>
 </div>
 
-<div class="top-item">
-<div class="text-center pt-5">
+<div class="container">
+<div class="text-center mt-5">
 <h4>ALL blog</h4>
 </div>
 
@@ -37,10 +37,10 @@
     <% @articles.each do |article| %>
       <div class="card-deck">
         <div class="card border-white mx-3 mt-3">
-          <%= link_to image_tag(article.image, class:"card-img", width:"250", height:"250"), article_path(article.id), method: :get %>
+          <%= link_to image_tag(article.image, class:"card-img"), article_path(article.id), method: :get %>
           <div class="card-img-underlay">
-            <h4 class="card-title"><%= article.title %></h4>
-            <h4 class="card-title"><%= article.text.truncate(20) %></h4>
+            <h5 class="card-title"><%= article.title %></h5>
+            <p class="card-title"><%= article.text.truncate(34) %></p>
           </div>
         </div>
       </div>
