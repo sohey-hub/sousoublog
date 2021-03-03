@@ -4,7 +4,7 @@ class Genre < ActiveHash::Base
     { id: 2, name: 'money' },
     { id: 3, name: 'book' },
     { id: 4, name: 'travel' },
-    { id: 5, name: '国際' },
+    { id: 5, name: 'mental' },
     { id: 6, name: 'IT' },
     { id: 7, name: 'エンタメ' },
     { id: 8, name: 'スポーツ' },
