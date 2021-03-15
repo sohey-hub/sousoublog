@@ -35,18 +35,4 @@
 <h4>ALL blog</h4>
 </div>
 
-  <div class="container">
-  <div class="row row-cols-4">
-    <% @articles.each do |article| %>
-      <div class="card-deck">
-        <div class="card border-white mx-3 mt-3">
-          <%= link_to image_tag(article.image, class:"card-img"), article_path(article.id), method: :get %>
-          <div class="card-img-underlay">
-            <h5 class="card-title"><%= article.title %></h5>
-            <p class="card-title"><%= article.text.truncate(34) %></p>
-          </div>
-        </div>
-      </div>
-    <% end %>
-  </div>
-</div>
+<%= render 'shared/article' %>
