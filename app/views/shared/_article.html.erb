@@ -1,3 +1,4 @@
+<% if @articles.present? %>
 <div class="container">
   <div class="row row-cols-4">
     <% @articles.each do |article| %>
@@ -13,3 +14,9 @@
     <% end %>
   </div>
 </div>
+
+<% else %>
+<div class="text-center">
+<%= "このジャンルにはまだ投稿がないです" %>
+</div>
+<% end %>
