@@ -1,3 +1,10 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+      <%= link_to "Home", root_path, class: "breadcrumb-item" %>
+    <li class="breadcrumb-item active" aria-current="page">記事詳細</li>
+  </ol>
+</nav>
+
 <div class="container">
   <div class="card border-white">
     <%= image_tag(@article.image, class:"rounded mx-auto", height:"500", width:"500") %>
