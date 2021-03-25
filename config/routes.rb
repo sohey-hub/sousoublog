@@ -9,5 +9,6 @@ Rails.application.routes.draw do
   resources :books, only: :index
   resources :mentals, only: :index
   resources :travels, only: :index
+  resources :programings, only: :index
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
