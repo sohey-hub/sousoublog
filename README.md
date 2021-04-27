@@ -14,10 +14,11 @@ Sousoublog
 )
 
 ## 各ジャンルごとの記事ページ
-![画像](<img width="1440" alt="9d497d9570e763251b806ff1e56e8f27" src="https://user-images.githubusercontent.com/75017019/116225180-79767b00-a78c-11eb-9fad-a1665eaff8dd.png">）
+![画像](<img width="1440" alt="9d497d9570e763251b806ff1e56e8f27" src="https://user-images.githubusercontent.com/75017019/116225180-79767b00-a78c-11eb-9fad-a1665eaff8dd.png">））
 
 ## 記事の詳細表示ページ
-![画像]（https://user-images.githubusercontent.com/75017019/116224166-47184e00-a78b-11eb-8a3d-b1c8430ff7c0.jpeg)
+![画像]（![aca430aea2cb9a705a9c7f1af8ebc462](https://user-images.githubusercontent.com/75017019/116225299-a32fa200-a78c-11eb-98b9-97360b95f97f.jpeg)
+
 
 # 工夫したポイント
 
