@@ -14,7 +14,7 @@ Sousoublog
 )
 
 ## 各ジャンルごとの記事ページ
-![画像](https://user-images.githubusercontent.com/75017019/116223835-e7ba3e00-a78a-11eb-916c-7ba429ba6f1c.png">)
+![画像](<img width="1440" alt="9d497d9570e763251b806ff1e56e8f27" src="https://user-images.githubusercontent.com/75017019/116225180-79767b00-a78c-11eb-9fad-a1665eaff8dd.png">）
 
 ## 記事の詳細表示ページ
 ![画像]（https://user-images.githubusercontent.com/75017019/116224166-47184e00-a78b-11eb-8a3d-b1c8430ff7c0.jpeg)
