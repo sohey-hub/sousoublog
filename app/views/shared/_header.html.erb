@@ -1,20 +1,42 @@
 <header class="header">
 
-  <nav class="navbar navbar-expand-lg navbar-light .bg-primary.bg-gradient">
-    <div class="container-fluid">
-      <h2><%= link_to "Sousou-blog", root_path, class:"navbar-brand" %></h2>
+<div class="title">
+<h1><%= link_to "むっちゃん", root_path %></h1>
+</div>
+<h5>-Yuki Muto Official Web Site-</h5>
 
+
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <%= link_to "Biography", moneys_path, class: "nav-link" %>
+  </li> 
+  <li class="nav-item">
+    <%= link_to "Youtube", books_path, class: "nav-link" %>
+  </li>
+  <li class="nav-item">
+     <%= link_to "News", travels_path, class: "nav-link" %>
+  </li>
+  <li class="nav-item">
+     <%= link_to "Fanclub", programings_path, class: "nav-link" %>
+  </li>
+  <li class="nav-item">
+     <%= link_to "Shopping", mentals_path, class: "nav-link" %>
+  </li>
+  <li class="nav-item">
+     <%= link_to "Contact", travels_path, class: "nav-link" %>
+  </li>
+</ul>
     <% if user_signed_in? %>
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <%= link_to "投稿", new_article_path, class: "nav-link active mx-5" %>
+          <% link_to "投稿", new_article_path, class: "nav-link active mx-5" %>
         </li>
         <li class="nav-item">
-          <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "nav-link" %>
+          <% link_to "ログアウト", destroy_user_session_path, method: :delete, class: "nav-link" %>
         </li>
     <% else %>
         <li class="nav-item">
-          <%= link_to "ログイン", new_user_session_path, class: "nav-link active mx-5" %>
+          <% link_to "ログイン", new_user_session_path, class: "nav-link active mx-5" %>
         </li>
       </ul>
     <% end %>

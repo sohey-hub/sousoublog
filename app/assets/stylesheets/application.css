@@ -1,6 +1,3 @@
-.navbar-brand{
-  font-family: 'Courier New', Courier, monospace;
-}
 
 .flex{
   display: flex;
@@ -11,14 +8,60 @@
   height: 25vh;
 }
 
-.container{
-  font-family: "YuGothic M";
+header{
+  background-color: #C2EEFF;
 }
 
-.font{
-  font-family: "YuGothic M";
+.title{
+text-align: center;
+padding-top: 30px;
+text-decoration: none;
+}
+
+h5{
+  text-align: center;
+  font-size: larger;
+}
+
+header{
+  font-family: 'Hiragino Mincho ProN、ヒラギノ明朝 ProN、Hiragino Mincho Pro、ヒラギノ明朝 Pro';
+}
+
+.card-deck{
+  text-align: center;
+}
+
+.card-title{
+  text-align: left;
+  padding-left: 200px;
+}
+
+h2{
+  padding: 20px 0px 5px 0px;
+  border-bottom: solid 5px grey;
+  text-align: left;
+}
+
+.biography{
+  background-color: #eeeeee;
 }
 
 footer{
-  background-color: cornflowerblue;
+  background-color: #C2EEFF;
+
+}
+
+.top-banner{
+	display: flex;
+	flex-wrap:wrap;
+}
+.top-banner li {
+	width: calc(100%/4);/*←画像を横に4つ並べる場合*/
+	padding:0 5px;/*←画像の左右に5pxの余白を入れる場合*/
+	box-sizing:border-box;
+}
+.top-banner li img {
+	max-width:100%; /*画像のはみだしを防ぐ*/
+	height: auto; /*画像の縦横比を維持 */
+	border:solid 1px #ccc; /*←画像を1pxのグレーの枠線で囲む指定の場合*/
 }

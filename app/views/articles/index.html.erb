@@ -1,41 +1,9 @@
-<div class="font">
-<ul class="nav nav-pills nav-fill bg-black ">
-  <li class="nav-item">
-    <%= link_to "Programing", programings_path, class: "nav-link" %>
-  </li>
-  <li class="nav-item">
-    <%= link_to "Money", moneys_path, class: "nav-link" %>
-  </li> 
-  <li class="nav-item">
-    <%= link_to "Book", books_path, class: "nav-link" %>
-  </li>
-  <li class="nav-item">
-     <%= link_to "Travel", travels_path, class: "nav-link" %>
-  </li>
-  <li class="nav-item">
-     <%= link_to "Mental", travels_path, class: "nav-link" %>
-  </li>
-  <li class="nav-item">
-     <%= link_to "Edit", travels_path, class: "nav-link" %>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About</a>
-  </li>
-</ul>
+<div class="biography">
+
+<div class="flex">
+  <%= image_tag "IMG_3439.JPG", class:"bd-placeholder-img card-img-top", height:"600px" %>
+  <%= image_tag "IMG_3440.JPG", class:"bd-placeholder-img card-img-top", height:"600px" %>
+  <%= image_tag "IMG_3441.JPG", class:"bd-placeholder-img card-img-top", height:"600px" %>
 </div>
 
-<div class="card bg-white text-black border-white">
-  <%= image_tag "IMG_2778.jpeg", class:"bd-placeholder-img card-img-top", height:"400" %>
-  <div class="card-img-overlay mt-4">
-    <div class="container text-white">
-      <h1>Sousou-blog</h1>
-    </div>
-  </div>
-</div>
-
-<div class="container">
-<div class="text-center mt-5">
-<h4>ALL blog</h4>
-</div>
-
-<%= render 'shared/article' %>
+<div>
