@@ -1,12 +1,16 @@
 <header class="header">
 
+
 <div class="title">
-<h1><%= link_to "むっちゃん", root_path %></h1>
+<%= link_to 'Yuking Baby', root_path, class: "Editlink" %>
 </div>
 <h5>-Yuki Muto Official Web Site-</h5>
 
 
 <ul class="nav justify-content-center">
+  <li class="nav-item">
+    <%= link_to "Top", root_path, class: "nav-link" %>
+  </li> 
   <li class="nav-item">
     <%= link_to "Biography", moneys_path, class: "nav-link" %>
   </li> 
@@ -17,7 +21,7 @@
      <%= link_to "News", travels_path, class: "nav-link" %>
   </li>
   <li class="nav-item">
-     <%= link_to "Fanclub", programings_path, class: "nav-link" %>
+     <%= link_to "Event", programings_path, class: "nav-link" %>
   </li>
   <li class="nav-item">
      <%= link_to "Shopping", mentals_path, class: "nav-link" %>
