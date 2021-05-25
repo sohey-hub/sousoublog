@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: sousoublog_production
-  username: sousoublog
-  password: <%= ENV['SOUSOUBLOG_DATABASE_PASSWORD'] %>
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
