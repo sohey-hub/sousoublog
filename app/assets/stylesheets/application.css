@@ -107,7 +107,7 @@ p{
 
 .back {
 	width:100%; /*画像のはみだしを防ぐ*/
-	height: 600px; /*画像の縦横比を維持 */
+	height: 100%; /*画像の縦横比を維持 */
 }
 
 
@@ -122,7 +122,7 @@ p{
     align-items: center;
   position: absolute;
   top: 0;
-  left: 20%;
+  left: 0;
 }
 
 .lili{
@@ -130,7 +130,7 @@ p{
   padding: auto;
   margin-left: 40px;
   color: black;
-  border-bottom: solid 2px #000077;
+  border-bottom: solid 1px #000077;
   display: inline-block;
 }
 .lilili{
@@ -143,8 +143,9 @@ p{
 .lililili{
   padding: 20px 10px 0px 10px;
   margin: 0px 20px 20px 20px;
-  border-bottom: solid 5px rgb(246, 202, 6);
+  border-bottom: solid 4px rgb(246, 202, 6);
 	text-align: left;
   font-weight: bolder;
   font-size: 30px;
+  display: inline-block;
 }
