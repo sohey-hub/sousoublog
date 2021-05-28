@@ -33,9 +33,9 @@ header{
 .card-title{
   text-align: left;
   padding: auto;
-  margin-left: 40px;
+  margin: 0 40px;
   color: black;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 h2{
@@ -136,7 +136,7 @@ p{
 .lilili{
   text-align: left;
   padding: auto;
-  margin-left: 45px;
+  margin: 0 45px;
   color: black;
 }
 
