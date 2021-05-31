@@ -1,0 +1,2 @@
+class BiographysController < ApplicationController
+end
