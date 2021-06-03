@@ -1,6 +1,7 @@
 
 .flex{
   display: flex;
+  margin: 30px;
 }
 
 .card-img{
@@ -98,6 +99,7 @@ a{
 
 span{
   color: red;
+  font-size: 30px;
 }
 
 p{
@@ -130,14 +132,16 @@ p{
   padding: auto;
   margin-left: 40px;
   color: black;
-  border-bottom: solid 1px #000077;
+  border-bottom: solid 3px #000077;
   display: inline-block;
+  font-size: 40px;
 }
 .lilili{
   text-align: left;
   padding: auto;
   margin: 0 45px;
   color: black;
+  font-size: 30px;
 }
 
 .lililili{
@@ -146,7 +150,7 @@ p{
   border-bottom: solid 4px rgb(246, 202, 6);
 	text-align: left;
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 50px;
   display: inline-block;
 }
 
@@ -168,5 +172,5 @@ p{
 
 .readerlive{
   color: red;
-  font-size: 20px;
+  font-size: 40px;
 }
