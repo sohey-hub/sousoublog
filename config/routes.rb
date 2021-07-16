@@ -6,7 +6,7 @@ Rails.application.routes.draw do
     resources :messages, only: [:new, :create]
   end
     resources :moneys, only: :index
-  resources :books, only: :index
+  resources :youtubes, only: :index
   resources :mentals, only: :index
   resources :travels, only: :index
   resources :programings, only: :index
