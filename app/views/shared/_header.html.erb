@@ -1,6 +1,5 @@
 <header class="header">
 
-
 <div class="title">
 <%= link_to 'Yuki Muto', root_path, class: "Editlink" %>
 </div>
@@ -20,7 +19,6 @@
   <li class="nav-item">
      <%= link_to "Event", events_path, class: "nav-link" %>
   </li>
-
 </ul>
 
     <% if user_signed_in? %>
@@ -35,7 +33,6 @@
         <li class="nav-item">
           <% link_to "ログイン", new_user_session_path, class: "nav-link active mx-5" %>
         </li>
-      </ul>
     <% end %>
     </div>  
 
